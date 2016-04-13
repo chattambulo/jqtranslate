@@ -201,7 +201,7 @@ First you must have the cordova globalization plugin installed:
 
 `$ cordova plugin add cordova-plugin-globalization`
 
-Remember to include jqtranslate.min.js in your peoject and have jquery loaded.
+Remember to include jqtranslate.min.js in your project and have jquery loaded.
 
 So, you can use a javascript to detect device language:
 
