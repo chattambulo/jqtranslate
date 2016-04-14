@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+	<p t="Total messages" tv='{"n":"0"}'></p>
+	<p t="Total messages" tv='{"n":"1"}'></p>
+	<p t="Total messages" tv='{"n":"2"}'></p>
+
+	<p t='Welcome message' tv='{"username":"chattambulo"}'></p>
+
+	<p t='Welcome with messages' tv='{"n":"1","username":"chattambulo"}'></p>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="../jqtranslate.min.js"></script>
+	<script>
+		jqtranslate.init({language:"en"});
+		alert(jqtranslate.get('Welcome message','{"username":"chattambulo"}'));
+	</script>
+</body>
+</html>

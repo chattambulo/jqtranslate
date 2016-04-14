@@ -1,0 +1,15 @@
+{
+	"Welcome message" : "Benvenuto {{username}}!",
+	"Total messages"  : {
+		"one"   : "Hai {{n}} messaggio.",
+		"other" : "Hai {{n}} messagi.",
+		"0"     : "Spiacente, nessun messaggio.",
+		"1"     : "Hai solo un messaggio."
+		},
+	"Welcome with messages"  : {
+		"one"   : "Benvenuto {{username}}, hai  {{n}} message.",
+		"other" : "Benvenuto {{username}}, hai  {{n}} messages.",
+		"0"     : "Benvenuto {{username}}, spiacente, nessun messaggio.",
+		"1"     : "Benvenuto {{username}}, hai solo un messaggio."
+		}
+}
