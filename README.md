@@ -27,7 +27,7 @@ Discussions, comments, feedback here: https://www.facebook.com/jqtranslate
 </html>
 ```
 
-Localization strings are located in "lang/`language code`.json (for example "lang/en.json", "lang/it.json", ...)
+Localization strings are located in "lang/`language code`.json" (for example "lang/en.json", "lang/it.json", ...).
 
 ```
 {
