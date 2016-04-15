@@ -26,7 +26,9 @@ Discussions, comments, feedback here: https://www.facebook.com/jqtranslate
 </body>
 </html>
 ```
-Localization strings are located in "lang/en.json"
+
+Localization strings are located in "lang/`language code`.json (for example "lang/en.json", "lang/it.json", ...)
+
 ```
 {
 	"Welcome message" : "Welcome {{username}}!"
