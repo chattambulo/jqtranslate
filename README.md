@@ -54,6 +54,7 @@ The plugin is under development, so language patterns are NOT COMPLETED.
 Actually the plural form works with the following language codes:
 
 2016-04-15, added: as, ast, asa, az, eu
+
 2016-04-14, added: af, ak, sq, am, ar, hy, nl, fr, en, it
 
 EXAMPLE 1
