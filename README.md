@@ -45,8 +45,9 @@ alert(jqtranslate.get('Welcome message',{"username":"chattambulo"}));
 ```
 
 or using shortcut
-
+```
 alert(_('Welcome message',{"username":"chattambulo"}));
+```
 
 ## Plural forms
 
