@@ -49,6 +49,12 @@ or using shortcut
 alert(_('Welcome message',{"username":"chattambulo"}));
 ```
 
+Example:
+```
+var user = "chattambulo";
+alert(_('Welcome message',{"username":(user)}));
+```
+
 ## Plural forms
 
 As specified in the [Unicode plural rules](http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) 
