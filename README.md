@@ -225,7 +225,11 @@ Remember to include jqtranslate.min.js in your project and have jquery loaded.
 So, you can use a javascript to detect device language:
 
 ```javascript
-var lang = "en"; // Default language
+document.addEventListener("deviceready", startGlobalization, false);
+
+var lang;                 // Current language
+var dlang = "en";         // Default language
+var langs = ["en", "it"]; // Defined languages
 
 document.addEventListener("deviceready", startGlobalization, false);
 
@@ -235,6 +239,7 @@ function startGlobalization() {
 		lang = language.value;
 		var parts = lang.split('-');
 		lang= parts[0];
+		if(langs.indexOf(lang)<0) lang = dlang;
 		jqtranslate.init({"language":lang});
 	},
 	function () {alert('Error getting language\n');}
