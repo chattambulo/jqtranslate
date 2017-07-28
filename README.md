@@ -214,7 +214,7 @@ Welcome chattambulo, only one message.
 ```
 
 
-## Working in cordova project
+## Working in cordova/phonegap project
 
 First you must have the cordova globalization plugin installed:
 
