@@ -1,6 +1,6 @@
 # jqtranslate
 
-jqtranslate is a quick way to build a multilanguage cordova/phonegap app or website.
+jqtranslate is a quick way to implement multilanguage in cordova/phonegap app or web based applications.
 
 jqtranslate is a jquery based plugin.
 
